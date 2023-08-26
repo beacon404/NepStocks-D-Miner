@@ -5,7 +5,7 @@ NepStocks-D-Miner is a Python script designed to extract essential stock data fr
 ## Features
 
 - Scrapes stock data for a list of specified stock symbols from the Nepal Share Market website.
-- Extracts details such as Symbol, Company, Sector, Listed Shares, Paidup Value, Total Paidup Value, Eps, and EPS date.
+- Extract details such as Symbol, Company, Sector, Listed Shares, Paidup Value, Total Paidup Value, Eps, and EPS date.
 - Stores the collected data in an Excel file named `StockData.xlsx`.
 - Appends new data to an existing Excel file if it already exists.
 - Utilizes libraries like `requests`, `BeautifulSoup`, and `pandas` for web scraping and data manipulation.
@@ -13,7 +13,7 @@ NepStocks-D-Miner is a Python script designed to extract essential stock data fr
 ## Prerequisites
 
 - Python 3.x
-- Required Python packages: `requests`, `BeautifulSoup`, `pandas` and other mentioned in requirement.txt file
+- Required Python packages: `requests`, `BeautifulSoup`, `pandas` and others mentioned in requirement.txt file
 
 ## Usage
 
@@ -22,3 +22,5 @@ NepStocks-D-Miner is a Python script designed to extract essential stock data fr
    ```bash
    pip install requests beautifulsoup4 pandas
 other requirements are mentioned in requirement.txt file 
+
+#### The site from where stock data is extracted using this program is hidden. Please contact us if needed.
