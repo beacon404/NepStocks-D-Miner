@@ -5,11 +5,15 @@ import os
 from pathlib import Path
 
 
-directory = r"C:\Users\sanja\OneDrive\Desktop\stockex"
-filename = "StockData.xlsx"
-htmlPath = Path(directory) / filename
+excelPath = Path(r'C:\Users\sanja\OneDrive\Desktop\NepStocks-D-Miner\StockData.xlsx')
 
-symbol = ['NABIL','KDL',] #Add other stock name to in this list.
+symbol = [  "SHPC", "NICA", "NTC", "SCB", "NABIL", 
+    "HBL", "EIC", "UPPER", "NIB", "NBB", 
+    "SBL", "PCBL", "SIC", "SANIMA", "MEGA",
+    "GBIME", "CBBL", "NIFRA", "PFL", "NIBPO",
+    "EDBL", "NLIC", "LICN", "NHPC", "CIT",
+    "JOSHI", "NMB", "HAMRO", "API",
+    "NRIC"] #Add other stock name to in this list. Might come error if symbol data is not available in site.
 for s in symbol:
     url1 = os.environ.get('stockurl')
     mainurl = f'{url1}{s}'
@@ -54,7 +58,7 @@ for s in symbol:
     Info = downa + epsdate
     # print(Info)
     
-    if htmlPath.exists():
+    if excelPath.exists():
         table = pd.DataFrame([Info], columns=['Symbol', 'Company', 'Sector', 'Listed Shares', 'Paidup Value', 'Total Paidup Value', 'Eps', 'EPS date'])
         
         # Read the existing data
