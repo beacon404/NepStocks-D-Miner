@@ -13,7 +13,7 @@ NepStocks-D-Miner is a Python script designed to extract essential stock data fr
 ## Prerequisites
 
 - Python 3.x
-- Required Python packages: `requests`, `BeautifulSoup`, `pandas`
+- Required Python packages: `requests`, `BeautifulSoup`, `pandas` and other mentioned in requirement.txt file
 
 ## Usage
 
@@ -21,3 +21,4 @@ NepStocks-D-Miner is a Python script designed to extract essential stock data fr
 2. Install the required Python packages using the following command:
    ```bash
    pip install requests beautifulsoup4 pandas
+other requirements are mentioned in requirement.txt file 
