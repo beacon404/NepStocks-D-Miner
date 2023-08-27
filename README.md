@@ -1,7 +1,9 @@
 # NepStocks-D-Miner
-![Screenshot 2023-08-27 210239](https://github.com/sanjaypahari/NepStocks-D-Miner/assets/107178884/ea87b47e-4597-406d-9bf8-3522ea3a5520)
 
 NepStocks-D-Miner is a Python script designed to extract essential stock data from the Nepal Share Market website for enhanced investment analysis. The script uses web scraping techniques to gather information about various stocks and saves it in an Excel file.
+
+<img src="https://github.com/sanjaypahari/NepStocks-D-Miner/assets/107178884/ea87b47e-4597-406d-9bf8-3522ea3a5520" alt="Screenshot" width="400">
+
 
 ## Features
 
